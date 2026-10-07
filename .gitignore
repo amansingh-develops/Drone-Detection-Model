@@ -1,0 +1,15 @@
+# Ignore raw and processed datasets
+newDatasets/
+CuratedDataset/
+KaggleDataset/
+*.tar.gz
+*.zip
+
+# Ignore local scripts, documentation logs, scratch files
+Scripts/
+DAILY_LOG*.md
+project_context.md
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.tmp/
